@@ -18,14 +18,23 @@ O projeto contém 9 tipos de diferentes de relatórios gerados em React.js
 Aproveite o uso deles para melhorar e facilitar seu projeto.
 
 Tipos de Dialog presentes:
+
 . Forms
+
 . Table
+
 . Pivot Table
+
 . Aggregation Table
+
 . Double Table
+
 . Filter and Order Table
+
 . Dashboard with chart
+
 . PDF Generator
+
 . File Upload
 
 ## Data de publicação: 15/02/2025
