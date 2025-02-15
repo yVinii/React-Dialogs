@@ -1,13 +1,14 @@
 # Exemplos de Dialog em React
 
 Para iniciar, baixe o projeto e instale suas dependências:
+
 /> npm install
 
-## Para rodar o projeto
+Para rodar o projeto:
 
 /> npm start
 
-## Para utilizá-lo
+Para utilizá-lo:
 
 /> npm run build
 
