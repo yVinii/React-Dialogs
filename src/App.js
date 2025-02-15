@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import FormDialog from './components/DialogForm';
+import DialogWithTable from './components/DialogTable';
+import DialogWithTablePivot from './components/DialogTablePivot';
+import EmployeeTableDialog from './components/AggregateTable';
+import DoubleTable from './components/DoubleTable';
+import OrderTable from './components/OrderTable';
+import DashboardDialog from './components/DashboardDialog';
+import ReportPreviewDialog from './components/PdfTable';
+import FileUploadDialog from './components/DialogUpload';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <br />
+      <FormDialog />
+      <br></br>
+      <DialogWithTable />
+      <br></br>
+      <DialogWithTablePivot />
+      <br></br>
+      <EmployeeTableDialog />
+      <br></br>
+      <DoubleTable />
+      <br></br>
+      <OrderTable />
+      <br></br>
+      <DashboardDialog />
+      <br></br>
+      <ReportPreviewDialog />
+      <br></br>
+      <FileUploadDialog />
     </div>
   );
 }
